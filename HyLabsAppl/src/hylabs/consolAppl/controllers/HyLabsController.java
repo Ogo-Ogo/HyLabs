@@ -1,5 +1,6 @@
 package hylabs.consolAppl.controllers;
 
+<<<<<<< HEAD
 import java.time.LocalDate;
 import java.util.List;
 
@@ -59,3 +60,12 @@ public class HyLabsController {
 		lab.displayUndoneTests();
 	}
 }
+=======
+import hylabs.consolAppl.service.ILabs;
+
+public class HyLabsController {
+	ILabs lab;
+	
+
+}
+>>>>>>> branch 'master' of https://github.com/Ogo-Ogo/HyLabs.git

@@ -1,5 +1,6 @@
 package hylabs.consolAppl.dao;
 
+<<<<<<< HEAD
 import java.util.List;
 import java.util.Optional;
 
@@ -17,5 +18,11 @@ public interface ILabRepository extends MongoRepository<Task, Integer> {
 	void deleteByitemId(String id);
 
 	List<Task> findAllBycompanyName(String companyName);
+=======
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+@Repository
+public interface ILabRepository extends MongoRepository<HyLabData, Integer> {
+>>>>>>> branch 'master' of https://github.com/Ogo-Ogo/HyLabs.git
 
 }
